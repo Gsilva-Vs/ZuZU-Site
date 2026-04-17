@@ -1,0 +1,9 @@
+{
+  "profile": "openai",
+  "env": {
+    "OPENAI_BASE_URL": "https://api.openai.com/v1",
+    "OPENAI_MODEL": "gpt-4o",
+    "OPENAI_API_KEY": "$env:CLAUDE_CODE_USE_OPENAI=\"1\"\n$env:OPENAI_BASE_URL=\"https://openrouter.ai/api/v1\"\n$env:OPENAI_API_KEY=\"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\"\n$env:OPENAI_MODEL=\"qwen/qwen3.6-plus:free\""
+  },
+  "createdAt": "2026-04-10T00:25:11.524Z"
+}
