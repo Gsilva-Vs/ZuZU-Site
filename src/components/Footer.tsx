@@ -48,7 +48,7 @@ function Footer() {
                 <span>Criar categorias futuras como doces, salgados, bebidas e guias.</span>
               </div>
 
-              {/* AQUI ESTÁ O LINK DO INSTAGRAM CLICÁVEL */}
+
               <a 
                 href="https://www.instagram.com/projetozuzuzero06/" 
                 target="_blank" 
