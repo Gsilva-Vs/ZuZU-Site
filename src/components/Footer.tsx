@@ -40,20 +40,28 @@ function Footer() {
             </div>
           </div>
 
-          <div>
+<div>
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-stone-500">Proximos passos</p>
             <div className="mt-4 space-y-3 text-sm text-stone-600">
               <div className="flex items-start gap-3">
                 <MapPinned className="mt-0.5 h-4 w-4 text-amber-700" />
                 <span>Criar categorias futuras como doces, salgados, bebidas e guias.</span>
               </div>
-              <div className="flex items-start gap-3">
+
+              {/* AQUI ESTÁ O LINK DO INSTAGRAM CLICÁVEL */}
+              <a 
+                href="https://www.instagram.com/projetozuzuzero06/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-start gap-3 transition hover:text-amber-700"
+              >
                 <Instagram className="mt-0.5 h-4 w-4 text-amber-700" />
-                <span>Conectar redes quando a identidade verbal e visual estiver fechada.</span>
-              </div>
+                <span>ZuZu Zero.</span>
+              </a>
+
               <div className="flex items-start gap-3">
                 <Mail className="mt-0.5 h-4 w-4 text-amber-700" />
-                <span>Adicionar newsletter ou contato quando houver estrategia de comunidade.</span>
+                <span>projetozuzuzero06@gmail.com</span>
               </div>
             </div>
           </div>
